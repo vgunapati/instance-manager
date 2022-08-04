@@ -7,5 +7,5 @@ spec:
   template:
     spec:
       containers:
-      - image: instance-manager:latest
+      - image: keikoproj/instance-manager:latest
         name: instance-manager
