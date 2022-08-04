@@ -26,7 +26,7 @@ GO_VERSION_CHECK := \
 GO_LDFLAGS ?= -ldflags="-s -w"
 
 # Image URL to use all building/pushing image targets
-IMG ?= instance-manager:latest
+IMG ?= keikoproj/instance-manager:latest
 INSTANCEMGR_TAG ?= latest
 
 # Produce CRDs that work back to Kubernetes 1.11 (no version conversion)
